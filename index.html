@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="displayQuiz">
+      <!-- Fragen werden hier dynamisch eingefügt -->
+    </div>
+    <div class="footer">
+      <button onclick="showSolution()" class="footerButton">Lösung</button>
+      <button onclick="renderFrage()" class="footerButton">Weiter</button>
+      <button
+        onclick="window.location.href = 'erstellen.html';"
+        class="footerButtonNeu"
+      >
+        Neue Frage erstellen
+      </button>
+      <script src="script.js" defer></script>
+      <script src="Fragen.js"></script>
+    </div>
+  </body>
+</html>

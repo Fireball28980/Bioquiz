@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Fragen {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 24px;
+  padding: 1rem;
+}
+
+.FragenTitel {
+  font-size: 3rem;
+}
+
+.Antworten {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+}
+
+.Antwort {
+  height: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 14px;
+  border: none;
+  background-color: rgba(213, 213, 213, 1);
+  border-radius: 10px;
+}
+
+.Antwort:hover {
+  filter: brightness(90%);
+}
+
+.Antwort.correct {
+  background-color: rgba(11, 226, 0, 0.674);
+  box-shadow: rgba(11, 226, 0, 0.674) 0px 0px 14px;
+}
+
+.Antwort.incorrect {
+  background-color: rgba(220, 6, 6, 0.895);
+  box-shadow: rgba(164, 3, 3, 0.895) 0px 0px 14px;
+}
+
+.footer {
+  padding-top: 2rem;
+}
+
+.footerButton {
+  height: 3rem;
+  width: 6rem;
+}
+
+.footerButtonNeu {
+  height: 3rem;
+  width: 15rem;
+  gap: 2rem;
+}
