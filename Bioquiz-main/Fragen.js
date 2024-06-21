@@ -474,13 +474,13 @@ const Fragen = [
     ],
   },
   {
-    id: 47,
-    Frage: "Wann entstand der Urkontinent PanGäa?",
+    id: 48,
+    Frage: "War das Quiz hilfreich?",
     Antwort: [
-      { id: "a", Text: "Quartär", correct: false },
-      { id: "b", Text: "Kreide ", correct: false },
-      { id: "c", Text: "Silur", correct: true },
-      { id: "d", Text: "Jura ", correct: false },
+      { id: "a", Text: "Nein", correct: false },
+      { id: "b", Text: "ich weis nicht", correct: false },
+      { id: "c", Text: "ja", correct: true },
+      { id: "d", Text: "nicht wirklich ", correct: false },
     ],
   },
 ];
