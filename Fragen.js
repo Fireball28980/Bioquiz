@@ -483,4 +483,14 @@ const Fragen = [
       { id: "d", Text: "Jura ", correct: false },
     ],
   },
+  {
+    id: 48,
+    Frage: "Wann entstand der Urkontinent PanGäa?",
+    Antwort: [
+      { id: "a", Text: "Quartär", correct: false },
+      { id: "b", Text: "Kreide ", correct: false },
+      { id: "c", Text: "Silur", correct: true },
+      { id: "d", Text: "Jura ", correct: false },
+    ],
+  },
 ];
