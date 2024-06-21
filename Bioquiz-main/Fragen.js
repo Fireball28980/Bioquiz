@@ -477,7 +477,7 @@ const Fragen = [
     id: 48,
     Frage: "War das Quiz hilfreich?",
     Antwort: [
-      { id: "a", Text: "Nein", correct: false },
+      { id: "a", Text: "nein", correct: false },
       { id: "b", Text: "ich weis nicht", correct: false },
       { id: "c", Text: "ja", correct: true },
       { id: "d", Text: "nicht wirklich ", correct: false },
