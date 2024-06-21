@@ -474,7 +474,7 @@ const Fragen = [
     ],
   },
   {
-    id: 46,
+    id: 47,
     Frage: "Wann entstand der Urkontinent PanGäa?",
     Antwort: [
       { id: "a", Text: "Quartär", correct: false },
