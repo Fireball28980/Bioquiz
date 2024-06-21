@@ -244,13 +244,243 @@ const Fragen = [
     ],
   },
   {
-    id: 24,
+    id: 25,
     Frage: "In welcher Zeit leben wir heute?",
     Antwort: [
       { id: "a", Text: "Kreide Zeit", correct: false },
       { id: "b", Text: "Jura Zeit", correct: false },
       { id: "c", Text: "Quartär Zeit", correct: true },
       { id: "d", Text: "Karbon Zeit", correct: false },
+    ],
+  },
+  {
+    id: 26,
+    Frage: "Wie nennt man die dünne Haut um eine Zelle?",
+    Antwort: [
+      { id: "a", Text: "Schleimhaut", correct: false },
+      { id: "b", Text: "Vorhaut", correct: false },
+      { id: "c", Text: "Zellmembran", correct: true },
+      { id: "d", Text: "Fellmembran", correct: false },
+    ],
+  },
+  {
+    id: 27,
+    Frage: "Was füllt die Zelle aus?",
+    Antwort: [
+      { id: "a", Text: "Blut", correct: false },
+      { id: "b", Text: "Eiweiß", correct: false },
+      { id: "c", Text: "Zellplama", correct: true },
+      { id: "d", Text: "Zellwasser", correct: false },
+    ],
+  },
+  {
+    id: 28,
+    Frage: "Was ist im inneren einer jeder Zelle zu finden?",
+    Antwort: [
+      { id: "a", Text: "Schleim", correct: false },
+      { id: "b", Text: "Zellbohne", correct: false },
+      { id: "c", Text: "Zellkern", correct: true },
+      { id: "d", Text: "Zellenteile", correct: false },
+    ],
+  },
+  {
+    id: 29,
+    Frage: "Was sind die wichtigsten Aufgaben jeder Zelle?",
+    Antwort: [
+      { id: "a", Text: "Blutregeneration", correct: false },
+      { id: "b", Text: "Blutversorgung", correct: false },
+      {
+        id: "c",
+        Text: "Energiegewinnung oder Aufbau von Stoffen",
+        correct: true,
+      },
+      { id: "d", Text: "Stoffwechsel", correct: false },
+    ],
+  },
+  {
+    id: 30,
+    Frage: "Wo lebten die Tiere vor 20 Millionen Jahren?",
+    Antwort: [
+      { id: "a", Text: "im Wald", correct: false },
+      { id: "b", Text: "im Wasser", correct: false },
+      { id: "c", Text: "auf Bäumen", correct: true },
+      { id: "d", Text: "in Höhlen", correct: false },
+    ],
+  },
+  {
+    id: 31,
+    Frage:
+      "Welchen Tiere ähnelten die Tiere die vor 20 Millionen Jahren auf Bäumen lebten?",
+    Antwort: [
+      { id: "a", Text: "Spinnen", correct: false },
+      { id: "b", Text: "Jeti", correct: false },
+      { id: "c", Text: "Groillas und Schimpansen", correct: true },
+      { id: "d", Text: "Eichelherr", correct: false },
+    ],
+  },
+  {
+    id: 32,
+    Frage: "Wer zählt als gemeinsamer Vorfahre von Mensch und Schimpanse?",
+    Antwort: [
+      { id: "a", Text: "Gorilla", correct: false },
+      { id: "b", Text: "Jeti", correct: false },
+      { id: "c", Text: "Proconsul", correct: true },
+      { id: "d", Text: "Zwergseidenäffchen", correct: false },
+    ],
+  },
+  {
+    id: 33,
+    Frage: "Was wurde aus den Tieren die weiter überwiegend auf Bäumen lebten?",
+    Antwort: [
+      { id: "a", Text: "Vögel", correct: false },
+      { id: "b", Text: "Urmensch", correct: false },
+      { id: "c", Text: "heutige Affenarten", correct: true },
+      { id: "d", Text: "Eichelherr", correct: false },
+    ],
+  },
+  {
+    id: 34,
+    Frage: "Was passierte mit den Urmenschen?",
+    Antwort: [
+      { id: "a", Text: "sie konnten schneller laufen", correct: false },
+      { id: "b", Text: "entdeckten das Feuer", correct: false },
+      { id: "c", Text: "sie richteten sich auf", correct: true },
+      { id: "d", Text: "sie begannen an zu sprechen", correct: false },
+    ],
+  },
+  {
+    id: 35,
+    Frage: "Was wurde aus den Tieren die den Boden entdeckten?",
+    Antwort: [
+      { id: "a", Text: "Vögel", correct: false },
+      { id: "b", Text: "Urmensch", correct: true },
+      { id: "c", Text: "heutige Affenarten", correct: false },
+      { id: "d", Text: "Eichelherr", correct: false },
+    ],
+  },
+  {
+    id: 36,
+    Frage: "Welche Werkzeuge dienten den Urmenschen als erstes?",
+    Antwort: [
+      { id: "a", Text: "Seile", correct: false },
+      { id: "b", Text: "Grasfassern", correct: false },
+      { id: "c", Text: "Stöcke, Steine, Knochen", correct: true },
+      { id: "d", Text: "Sehnen", correct: false },
+    ],
+  },
+  {
+    id: 37,
+    Frage: "Wann entstand der Frühmensch Homo habilis?",
+    Antwort: [
+      { id: "a", Text: "5 Millionen Jahre", correct: false },
+      { id: "b", Text: "1 Millione Jahre", correct: false },
+      { id: "c", Text: "2-3 Millionen Jahre", correct: true },
+      { id: "d", Text: "12 Millionen Jahre", correct: false },
+    ],
+  },
+  {
+    id: 38,
+    Frage: "Wann entstand der Frühmensch Homo erectus?",
+    Antwort: [
+      { id: "a", Text: "5 Millionen Jahre", correct: false },
+      { id: "b", Text: "1-1,5 Millionen Jahre", correct: true },
+      { id: "c", Text: "2-3 Millionen Jahre", correct: false },
+      { id: "d", Text: "12 Millionen Jahre", correct: false },
+    ],
+  },
+  {
+    id: 39,
+    Frage: "Was benutzte der Frühmensch Homo erectus als erstes?",
+    Antwort: [
+      { id: "a", Text: "Werkzeug", correct: false },
+      { id: "b", Text: "Feuer", correct: true },
+      { id: "c", Text: "Steine", correct: false },
+      { id: "d", Text: "Stöcker", correct: false },
+    ],
+  },
+  {
+    id: 40,
+    Frage: "Warum war das benutzen des Feuers so wichtig für die Entwicklung?",
+    Antwort: [
+      { id: "a", Text: "warmes Essen", correct: false },
+      { id: "b", Text: "Einwanderung in kälteren Regionen", correct: true },
+      { id: "c", Text: "Als Abschreckung anderer Tiere ", correct: false },
+      { id: "d", Text: "als licht in der Dunkelheit", correct: false },
+    ],
+  },
+  {
+    id: 41,
+    Frage:
+      "Von welchem Frühmensch wurden Faustkeile, Steinmesser, Schaber und Speerspizen benutzt?",
+    Antwort: [
+      { id: "a", Text: "Homo erectus", correct: false },
+      { id: "b", Text: "Homo sapiens", correct: true },
+      { id: "c", Text: "Homo habilis", correct: false },
+      {
+        id: "d",
+        Text: "Jeder Homo könnte diese Werkzeuge herrstellen",
+        correct: false,
+      },
+    ],
+  },
+  {
+    id: 42,
+    Frage: "Was tat der Neandertaler mit seinen Toten?",
+    Antwort: [
+      { id: "a", Text: "Essen", correct: false },
+      { id: "b", Text: "Bestatten", correct: true },
+      { id: "c", Text: "Ins Meer werfen", correct: false },
+      { id: "d", Text: "liegen lassen", correct: false },
+    ],
+  },
+  {
+    id: 43,
+    Frage: "Warum ist Chlorophyll in Zellen so wichtig?",
+    Antwort: [
+      { id: "a", Text: "Wachstum", correct: false },
+      { id: "b", Text: "Sauerstoff abgabe", correct: true },
+      { id: "c", Text: "Vervielfertigung", correct: false },
+      { id: "d", Text: "um die Pflanzen Grün zu machen ", correct: false },
+    ],
+  },
+  {
+    id: 44,
+    Frage: "Wann entstanden die ersten Fische und Wirbeltiere?",
+    Antwort: [
+      { id: "a", Text: "Jura Zeit", correct: false },
+      { id: "b", Text: "Devon Zeit", correct: false },
+      { id: "c", Text: "Ordovicium Zeit", correct: true },
+      { id: "d", Text: "Karbon Zeit", correct: false },
+    ],
+  },
+  {
+    id: 45,
+    Frage: "Aus was entstand unsere Erde vor 4,5 Millarden Jahren?",
+    Antwort: [
+      { id: "a", Text: "Komet", correct: false },
+      { id: "b", Text: "Asteroid", correct: false },
+      { id: "c", Text: "Feuerball", correct: true },
+      { id: "d", Text: "Mond", correct: false },
+    ],
+  },
+  {
+    id: 46,
+    Frage: "In welcher Zeit entstadten die ersten Reptillien?",
+    Antwort: [
+      { id: "a", Text: "Quartär", correct: false },
+      { id: "b", Text: "Kreide ", correct: false },
+      { id: "c", Text: "Karbon", correct: true },
+      { id: "d", Text: "Jura ", correct: false },
+    ],
+  },
+  {
+    id: 47,
+    Frage: "Wann entstand der Urkontinent PanGäa?",
+    Antwort: [
+      { id: "a", Text: "Quartär", correct: false },
+      { id: "b", Text: "Kreide ", correct: false },
+      { id: "c", Text: "Silur", correct: true },
+      { id: "d", Text: "Jura ", correct: false },
     ],
   },
 ];
